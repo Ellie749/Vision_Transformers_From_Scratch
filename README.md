@@ -2,7 +2,7 @@
 
 This repository contains a from-scratch implementation of the Vision Transformer (ViT) architecture using Tensorflow. It walks through the core building blocks such as positional encoding, patch embedding, multi-head attention, and classification head.
 
-## 📁 Project Structure
+## Project Structure
 VISION_TRANSFORMERS_FROM_SCRATCH <br>
 |   ├── examples<br>
 │   ├── src <br>
@@ -33,15 +33,15 @@ Install dependencies via:
 pip install -r requirements.txt
 ```
 
-Dataset
+## Dataset
 Currently supports image classification datasets like CIFAR-100. You can modify load_dataset.py to plug in other datasets.
 
-🧠 TODO
- complete training on 150 epochs
- change weight directory
- add inference
- add more regularizations
- add unit tests
+## TODO<br>
+- complete training on 150 epochs<br>
+- change weight directory<br>
+- add inference<br>
+- add more regularizations<br>
+- add unit tests<br>
 
-📎 References
+## References 
 [An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale](https://arxiv.org/abs/2010.11929)
