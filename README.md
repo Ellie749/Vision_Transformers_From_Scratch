@@ -3,7 +3,7 @@
 This repository contains a from-scratch implementation of the Vision Transformer (ViT) architecture using Tensorflow. It walks through the core building blocks such as positional encoding, patch embedding, multi-head attention, and classification head.
 
 ## 📁 Project Structure
-VISION_TRANSFORMERS_FROM_SCRATCH
+VISION_TRANSFORMERS_FROM_SCRATCH \*
 | ├── examples
 │ ├── src 
 │   ├── data_pipeline 
@@ -40,7 +40,7 @@ Install dependencies via:
 
 ```bash
 pip install -r requirements.txt
-
+```
 
 📊 Dataset
 Currently supports image classification datasets like CIFAR-10. You can modify load_dataset.py to plug in other datasets.
