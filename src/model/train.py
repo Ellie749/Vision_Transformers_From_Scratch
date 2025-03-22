@@ -8,7 +8,7 @@ def run_experiments(model, X_train, y_train, X_test, y_test, batch_size, epochs)
     model.compile(optimizer=optimizer, loss=loss, metrics=metrics)
 
 
-    checkpoint_file = 'weights/checkpoint_experiment1'
+    checkpoint_file = 'src/weights/checkpoint_experiment1'
     checkpoint_callback = ModelCheckpoint(checkpoint_file, monitor='val_accuracy', save_best_only=True, save_weights_only=True)
 
 
