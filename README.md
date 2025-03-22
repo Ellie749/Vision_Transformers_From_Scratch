@@ -3,26 +3,26 @@
 This repository contains a from-scratch implementation of the Vision Transformer (ViT) architecture using Tensorflow. It walks through the core building blocks such as positional encoding, patch embedding, multi-head attention, and classification head.
 
 ## 📁 Project Structure
-VISION_TRANSFORMERS_FROM_SCRATCH \*
-| ├── examples
-│ ├── src 
-│   ├── data_pipeline 
-│   │   └── load_dataset.py # Functions to load and preprocess datasets 
-│   ├── model
-│   |    └── train.py # Functions run experiments 
-│   ├── network
-│   │   ├── architecture.py # Creating and assembling ViT network architecture
-│   │   |   positional_encoding.py # Positional encoding for ViT 
-│   │   └── mlp.py
-│   ├──  visualization
-│   │   └── utils.py # visualizing train metrics
-│   ├── weights/ # Directory to save trained model weights 
-|   ├── experiments.ipynb # Notebook for quick experimentation
-|   ├── project.p # main training code
-| ├── application.py 
-| ├── config.ini # Configuration file 
-| ├── README.md # You're here!
-| └── requirement.txt
+VISION_TRANSFORMERS_FROM_SCRATCH <br>
+| ├── examples<br>
+│ ├── src <br>
+│   ├── data_pipeline <br>
+│   │   └── load_dataset.py # Functions to load and preprocess datasets <br>
+│   ├── model<br>
+│   |    └── train.py # Functions run experiments <br>
+│   ├── network<br>
+│   │   ├── architecture.py # Creating and assembling ViT network architecture<br>
+│   │   |   positional_encoding.py # Positional encoding for ViT <br>
+│   │   └── mlp.py<br>
+│   ├──  visualization<br>
+│   │   └── utils.py # visualizing train metrics<br>
+│   ├── weights/ # Directory to save trained model weights <br>
+|   ├── experiments.ipynb # Notebook for quick experimentation<br>
+|   ├── project.p # main training code<br>
+| ├── application.py <br>
+| ├── config.ini # Configuration file <br>
+| ├── README.md # You're here!<br>
+| └── requirement.txt<br>
 
 
 
@@ -43,6 +43,6 @@ pip install -r requirements.txt
 ```
 
 📊 Dataset
-Currently supports image classification datasets like CIFAR-10. You can modify load_dataset.py to plug in other datasets.
+Currently supports image classification datasets like CIFAR-100. You can modify load_dataset.py to plug in other datasets.
 
 🧠 TODO
