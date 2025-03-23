@@ -50,9 +50,9 @@ Example prediction of the model:<br>
 
 ## TODO<br>
 - complete training on 150 epochs<br>
-- change weight directory<br>
 - add more regularizations for overfitting<br>
 - add unit tests<br>
+- add more docstrings and type hinting<br>
 
 ## References 
 [An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale](https://arxiv.org/abs/2010.11929)
