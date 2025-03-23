@@ -36,11 +36,22 @@ pip install -r requirements.txt
 ## Dataset
 Currently supports image classification datasets like CIFAR-100. You can modify load_dataset.py to plug in other datasets.
 
+## Training 
+
+<img src="src/visualization/train_epochs.png" alt="My Image" width="600"/><br>
+
+<img src="src/visualization/metrics.png" alt="My Image" width="400"/>
+
+
+## Example
+Example prediction of the model:<br>
+<img src="src/visualization/prediction_sample.png" alt="test_image" width="400"/>
+
+
 ## TODO<br>
 - complete training on 150 epochs<br>
 - change weight directory<br>
-- add inference<br>
-- add more regularizations<br>
+- add more regularizations for overfitting<br>
 - add unit tests<br>
 
 ## References 
